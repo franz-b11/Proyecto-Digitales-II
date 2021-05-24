@@ -33,3 +33,7 @@ Materiales:
 .Boton.
 .Potenciometro.
 .Resistencias 
+
+#Uso
+
+el dispositivo utiliza botones para registrar las personas que pasan por el establecimiento, cada persona que pase debe oprimir un boton ya sea cuando entre o salg, tambien el dueño de dicho establecimiento configurará la capacidad maxima para el aforo
