@@ -27,3 +27,6 @@ Jerséis;
 adaptador 5v 1A; 
 Protoboard;
  
+# Configuracion 
+
+1. Conectar el PIC al pc usando un cable micro-USB
