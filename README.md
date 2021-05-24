@@ -29,4 +29,6 @@ Protoboard;
  
 # Configuracion 
 
-1. Conectar el PIC al pc usando un cable micro-USB
+1. Conectar el PIC al pc usando un cable micro-USB.
+2. Si aún no se ha intalado el sistema debe de desgargarlo para hacer buen uso de MPLAB (ultima version).
+3.Tambien debe de tener XC8 y abrir el .X
