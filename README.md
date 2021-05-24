@@ -9,6 +9,7 @@ El contador de aforos es un dispositivo el cual permitirá el mejoramiento de lo
 
 MPLAB® X IDE 5.40 o más reciente
 MPLAB  XCD 2.20 o un compilador más reciente 
+https://www.microchip.com/xcdemo/GetDemoLicense.aspx
 
 # Hardware-utilizado
 
