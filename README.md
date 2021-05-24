@@ -17,6 +17,8 @@ El kit de evaluación Microchip PIC16F15244 Curiosity Nano es una plataforma de 
 ![PIC](https://user-images.githubusercontent.com/79480593/119299015-cb8fac80-bc23-11eb-8a81-b36abfd5c73c.jpg)
 ![LCD](https://user-images.githubusercontent.com/79480593/119299024-d1858d80-bc23-11eb-8233-0b8a72778e9b.png)
 https://www.microchip.com/Developmenttools/ProductDetails/EV09Z1.  
+.PIC16F15244.
+
 PIC16F15244 Curiosity Nano (EV09Z19A).
 Cable micro-USB a USB 2.0.
 Pantalla LCD 16x2.
