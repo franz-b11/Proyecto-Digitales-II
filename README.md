@@ -30,5 +30,6 @@ Protoboard;
 # Configuracion 
 
 1. Conectar el PIC al pc usando un cable micro-USB.
-2. Si aún no se ha intalado el sistema debe de desgargarlo para hacer buen uso de MPLAB (ultima version).
-3.Tambien debe de tener XC8 y abrir el .X
+2. Si aún no se ha intalado el sistema debe de desgargarlo para hacer buen uso de MPLAB (ultima versión).
+3. Instalar XC8 para correr el .X
+![Diagrama de proyecto](https://user-images.githubusercontent.com/79480593/119300235-0a266680-bc26-11eb-8dde-8154e3a69e2f.png)
