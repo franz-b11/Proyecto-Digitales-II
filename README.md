@@ -7,10 +7,8 @@ El contador de aforos es un dispositivo el cual permitirá el mejoramiento de lo
 
 #  Sofware ustilizado 
 
-MPLAB® X IDE 5.40 o más reciente
-MPLAB  XCD 2.20 o un compilador más reciente 
-https://www.microchip.com/xcdemo/GetDemoLicense.aspx
-
+MPLAB® X IDE 5.40 o más reciente/n
+MPLAB  XCD 2.20 o un compilador más reciente /n
 # Hardware-utilizado
 
 El kit de evaluación Microchip PIC16F15244 Curiosity Nano es una plataforma de hardware para evaluar microcontroladores PIC. El kit de evaluación viene con un programador y depurador totalmente integrado que proporciona una integración perfecta con Microchip MPLAB X. El kit proporciona acceso a las funciones del PIC16F15244 permitiendo una fácil integración del dispositivo en un diseño personalizado. El kit presenta voltaje variable, un puerto serial virtual y una interfaz DGI para facilitar el desarrollo y la depuración.
