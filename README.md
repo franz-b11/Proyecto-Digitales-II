@@ -21,6 +21,7 @@ https://www.microchip.com/Developmenttools/ProductDetails/EV09Z1.
  
 # Configuracion 
 
+
 1. Conectar el PIC al pc usando un cable micro-USB.
 2. Si aún no se ha intalado el sistema debe de desgargarlo para hacer buen uso de MPLAB (ultima versión)..
 3. Instalar XC8 para correr el .X
@@ -34,6 +35,5 @@ Materiales:
 .Potenciometro.
 .Resistencias 
 
-#Uso
-
+#    Uso
 el dispositivo utiliza botones para registrar las personas que pasan por el establecimiento, cada persona que pase debe oprimir un boton ya sea cuando entre o salg, tambien el dueño de dicho establecimiento configurará la capacidad maxima para el aforo
