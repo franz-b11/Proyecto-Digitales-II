@@ -6412,6 +6412,7 @@ void mostrarcantidad (void){
     _delay((unsigned long)((500)*(1000000/4000.0)));
 }
 
+
 void apagarsalidas (void){
     LATBbits.LATB5 =0;;
     LATAbits.LATA2=0;;
@@ -6430,7 +6431,7 @@ void main(void){
     Lcd_Cmd(1);
 
     while(1){
-        per_max=per_max;
+
 
         if(PORTCbits.RC0 == 0){
            per_max=per_max+2;
@@ -6446,7 +6447,7 @@ void main(void){
               apagarsalidas();
 
         }
-            else if(PORTCbits.RC3 == 0){
+        else if(PORTCbits.RC3 == 0){
            cantidad=cantidad+1;
            _delay((unsigned long)((500)*(1000000/4000.0)));
            mostrarcantidad();
@@ -6458,7 +6459,6 @@ void main(void){
             mostrarcantidad();
               apagarsalidas();
         }
-
         mitad=0.5*per_max;
         if(cantidad < mitad){
             apagarsalidas();
@@ -6486,6 +6486,5 @@ void main(void){
             LATAbits.LATA1=1;;
             _delay((unsigned long)((500)*(1000000/4000.0)));
         }
-
-        }
     }
+}

@@ -55,9 +55,9 @@
 [v _mostrargenmax mostrargenmax `(v  1 e 1 0 ]
 "126
 [v _mostrarcantidad mostrarcantidad `(v  1 e 1 0 ]
-"133
+"134
 [v _apagarsalidas apagarsalidas `(v  1 e 1 0 ]
-"140
+"141
 [v _main main `(v  1 e 1 0 ]
 "55 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 [v _flags flags `i  1 s 2 flags ]
@@ -170,10 +170,10 @@
 [v _cantidad cantidad `ui  1 e 2 0 ]
 "70
 [v _mitad mitad `i  1 e 2 0 ]
-"140
+"141
 [v _main main `(v  1 e 1 0 ]
 {
-"209
+"208
 } 0
 "120
 [v _mostrargenmax mostrargenmax `(v  1 e 1 0 ]
@@ -185,10 +185,10 @@
 {
 "131
 } 0
-"133
+"134
 [v _apagarsalidas apagarsalidas `(v  1 e 1 0 ]
 {
-"139
+"140
 } 0
 "10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]

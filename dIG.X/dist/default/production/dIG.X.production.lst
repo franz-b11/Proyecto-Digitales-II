@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Mon May 24 23:33:53 2021
+                                                                                               Tue May 25 17:41:16 2021
 
 Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
      1                           	processor	16F15244
@@ -872,7 +872,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    858 ;;
    859 ;; *************** function _main *****************
    860 ;; Defined at:
-   861 ;;		line 140 in file "MAIN.c"
+   861 ;;		line 141 in file "MAIN.c"
    862 ;; Parameters:    Size  Location     Type
    863 ;;		None
    864 ;; Auto vars:     Size  Location     Type
@@ -917,41 +917,41 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    903                           ; Regs used in _main: [wreg-fsr1h+status,2+status,0+pclath+cstack]
    904                           
    905                           
-   906                           ;MAIN.c: 141:     PIN_MANAGER_Initialize();
+   906                           ;MAIN.c: 142:     PIN_MANAGER_Initialize();
    907  023F  318B  2344  3182   	fcall	_PIN_MANAGER_Initialize
    908  0242                     l2242:
    909                           
-   910                           ;MAIN.c: 142:     OSCILLATOR_Initialize();
+   910                           ;MAIN.c: 143:     OSCILLATOR_Initialize();
    911  0242  318B  2333  3182   	fcall	_OSCILLATOR_Initialize
    912  0245                     l2244:
    913                           
-   914                           ;MAIN.c: 143:     Lcd_Init();
+   914                           ;MAIN.c: 144:     Lcd_Init();
    915  0245  318D  25A3  3182   	fcall	_Lcd_Init
    916  0248                     l2246:
    917                           
-   918                           ;MAIN.c: 144:     Lcd_Cmd(1);
+   918                           ;MAIN.c: 145:     Lcd_Cmd(1);
    919  0248  3001               	movlw	1
    920  0249  318E  262F  3182   	fcall	_Lcd_Cmd
    921  024C                     l2248:
    922                           
-   923                           ;MAIN.c: 145:     Lcd_Cmd(12);
+   923                           ;MAIN.c: 146:     Lcd_Cmd(12);
    924  024C  300C               	movlw	12
    925  024D  318E  262F  3182   	fcall	_Lcd_Cmd
    926                           
-   927                           ;MAIN.c: 146:     apagarsalidas();
+   927                           ;MAIN.c: 147:     apagarsalidas();
    928  0250  318B  2338  3182   	fcall	_apagarsalidas
    929  0253                     l2250:
    930                           
-   931                           ;MAIN.c: 147:     ValorDeGenMax();
+   931                           ;MAIN.c: 148:     ValorDeGenMax();
    932  0253  318C  247A  3182   	fcall	_ValorDeGenMax
    933  0256                     l2252:
    934                           
-   935                           ;MAIN.c: 148:     Lcd_Cmd(1);
+   935                           ;MAIN.c: 149:     Lcd_Cmd(1);
    936  0256  3001               	movlw	1
    937  0257  318E  262F  3182   	fcall	_Lcd_Cmd
    938  025A                     l2254:
    939                           
-   940                           ;MAIN.c: 153:         if(PORTCbits.RC0 == 0){
+   940                           ;MAIN.c: 154:         if(PORTCbits.RC0 == 0){
    941  025A  0140               	movlb	0	; select bank0
    942  025B  180E               	btfsc	14,0	;volatile
    943  025C  2A5E               	goto	u2511
@@ -961,7 +961,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    947  025F                     u2510:
    948  025F                     l2256:
    949                           
-   950                           ;MAIN.c: 154:            per_max=per_max+2;
+   950                           ;MAIN.c: 155:            per_max=per_max+2;
    951  025F  086D               	movf	_per_max,w
    952  0260  3E02               	addlw	2
    953  0261  00ED               	movwf	_per_max
@@ -970,7 +970,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    956  0264  00EE               	movwf	_per_max+1
    957  0265                     l2258:
    958                           
-   959                           ;MAIN.c: 155:            _delay((unsigned long)((500)*(1000000/4000.0)));
+   959                           ;MAIN.c: 156:            _delay((unsigned long)((500)*(1000000/4000.0)));
    960  0265  30A3               	movlw	163
    961  0266  0140               	movlb	0	; select bank0
    962  0267  00EC               	movwf	??_main
@@ -982,17 +982,17 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    968  026C  2A69               	goto	u2597
    969  026D                     l2260:
    970                           
-   971                           ;MAIN.c: 156:            mostrargenmax();
+   971                           ;MAIN.c: 157:            mostrargenmax();
    972  026D  318B  23D5  3182   	fcall	_mostrargenmax
    973  0270                     l2262:
    974                           
-   975                           ;MAIN.c: 157:              apagarsalidas();
+   975                           ;MAIN.c: 158:              apagarsalidas();
    976  0270  318B  2338  3182   	fcall	_apagarsalidas
    977                           
-   978                           ;MAIN.c: 159:         }
+   978                           ;MAIN.c: 160:         }
    979  0273  2AA2               	goto	l2288
    980  0274                     l123:	
-   981                           ;MAIN.c: 160:         else if(PORTCbits.RC1 == 0){
+   981                           ;MAIN.c: 161:         else if(PORTCbits.RC1 == 0){
    982                           
    983  0274  188E               	btfsc	14,1	;volatile
    984  0275  2A77               	goto	u2521
@@ -1002,7 +1002,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    988  0278                     u2520:
    989  0278                     l2264:
    990                           
-   991                           ;MAIN.c: 161:             per_max=per_max-2;
+   991                           ;MAIN.c: 162:             per_max=per_max-2;
    992  0278  086D               	movf	_per_max,w
    993  0279  3EFE               	addlw	254
    994  027A  00ED               	movwf	_per_max
@@ -1011,7 +1011,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    997  027D  00EE               	movwf	_per_max+1
    998  027E  2A65               	goto	l2258
    999  027F                     l125:	
-  1000                           ;MAIN.c: 167:             else if(PORTCbits.RC3 == 0){
+  1000                           ;MAIN.c: 168:         else if(PORTCbits.RC3 == 0){
   1001                           
   1002  027F  198E               	btfsc	14,3	;volatile
   1003  0280  2A82               	goto	u2531
@@ -1021,7 +1021,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1007  0283                     u2530:
   1008  0283                     l2272:
   1009                           
-  1010                           ;MAIN.c: 168:            cantidad=cantidad+1;
+  1010                           ;MAIN.c: 169:            cantidad=cantidad+1;
   1011  0283  0141               	movlb	1	; select bank1
   1012  0284  082A               	movf	_cantidad^(0+128),w
   1013  0285  3E01               	addlw	1
@@ -1031,7 +1031,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1017  0289  00AB               	movwf	(_cantidad+1)^(0+128)
   1018  028A                     l2274:
   1019                           
-  1020                           ;MAIN.c: 169:            _delay((unsigned long)((500)*(1000000/4000.0)));
+  1020                           ;MAIN.c: 170:            _delay((unsigned long)((500)*(1000000/4000.0)));
   1021  028A  30A3               	movlw	163
   1022  028B  0140               	movlb	0	; select bank0
   1023  028C  00EC               	movwf	??_main
@@ -1043,11 +1043,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1029  0291  2A8E               	goto	u2607
   1030  0292                     l2276:
   1031                           
-  1032                           ;MAIN.c: 170:            mostrarcantidad();
+  1032                           ;MAIN.c: 171:            mostrarcantidad();
   1033  0292  318C  2421  3182   	fcall	_mostrarcantidad
   1034  0295  2A70               	goto	l2262
   1035  0296                     l127:	
-  1036                           ;MAIN.c: 173:         else if(PORTCbits.RC2 == 0){
+  1036                           ;MAIN.c: 174:         else if(PORTCbits.RC2 == 0){
   1037                           
   1038  0296  190E               	btfsc	14,2	;volatile
   1039  0297  2A99               	goto	u2541
@@ -1057,7 +1057,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1043  029A                     u2540:
   1044  029A                     l2280:
   1045                           
-  1046                           ;MAIN.c: 174:             cantidad=cantidad-1;
+  1046                           ;MAIN.c: 175:             cantidad=cantidad-1;
   1047  029A  0141               	movlb	1	; select bank1
   1048  029B  082A               	movf	_cantidad^(0+128),w
   1049  029C  3EFF               	addlw	255
@@ -1427,7 +1427,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1413  0B38                     __ptext3:	
   1414 ;; *************** function _apagarsalidas *****************
   1415 ;; Defined at:
-  1416 ;;		line 133 in file "MAIN.c"
+  1416 ;;		line 134 in file "MAIN.c"
   1417 ;; Parameters:    Size  Location     Type
   1418 ;;		None
   1419 ;; Auto vars:     Size  Location     Type
@@ -1462,17 +1462,17 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1448                           ; Regs used in _apagarsalidas: []
   1449                           
   1450                           
-  1451                           ;MAIN.c: 134:     LATBbits.LATB5 =0;;
+  1451                           ;MAIN.c: 135:     LATBbits.LATB5 =0;;
   1452  0B38  0140               	movlb	0	; select bank0
   1453  0B39  1299               	bcf	25,5	;volatile
   1454                           
-  1455                           ;MAIN.c: 135:     LATAbits.LATA2=0;;
+  1455                           ;MAIN.c: 136:     LATAbits.LATA2=0;;
   1456  0B3A  1118               	bcf	24,2	;volatile
   1457                           
-  1458                           ;MAIN.c: 136:     LATAbits.LATA1=0;;
+  1458                           ;MAIN.c: 137:     LATAbits.LATA1=0;;
   1459  0B3B  1098               	bcf	24,1	;volatile
   1460                           
-  1461                           ;MAIN.c: 137:     LATBbits.LATB7=0;;
+  1461                           ;MAIN.c: 138:     LATBbits.LATB7=0;;
   1462  0B3C  1399               	bcf	25,7	;volatile
   1463  0B3D                     l117:
   1464  0B3D  0008               	return
@@ -6897,7 +6897,7 @@ SFR63                0      0       0      64        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Mon May 24 23:33:53 2021
+Symbol Table                                                                                   Tue May 25 17:41:16 2021
 
                              l57 0DDC                               l58 0E02                               l91 0EC0  
                              l59 0E2E                               l85 0CFA                               l88 0F53  

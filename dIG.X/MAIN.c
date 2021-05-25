@@ -1,6 +1,6 @@
 /*
  *DATOS DEL PROGRAMA
- *TITULO:
+ *TITULO:CONTADOR DE AFORO 
  * MICRO: PIC15F15244
  * ESTUDIANTES:
  *      MAICOL STIVEN PRADA AGUIAR 24201910141
@@ -24,7 +24,7 @@
 #pragma config VDDAR = HI    // VDD Range Analog Calibration Selection bit->Internal analog systems are calibrated for operation between VDD = 2.3V - 5.5V
 
 // CONFIG2
-#pragma config MCLRE = EXTMCLR    // Master Clear Enable bit->If LVP = 0, MCLR pin is MCLR; If LVP = 1, RA3 pin function is MCLR
+#pragma config MCLRE = EXTMCLR    // Master Clear Enabl e bit->If LVP = 0, MCLR pin is MCLR; If LVP = 1, RA3 pin function is MCLR
 #pragma config PWRTS = PWRT_OFF    // Power-up Timer Selection bits->PWRT is disabled
 #pragma config WDTE = OFF    // WDT Operating Mode bits->WDT disabled; SEN is ignored
 #pragma config BOREN = ON    // Brown-out Reset Enable bits->Brown-out Reset Enabled, SBOREN bit is ignored
@@ -130,6 +130,7 @@ void mostrarcantidad (void){
     __delay_ms(500);   
 }
 
+
 void apagarsalidas (void){
     off_l_verde();
     off_l_naranja();
@@ -148,7 +149,7 @@ void main(void){
     Lcd_Cmd(LCD_CLEAR);
     
     while(1){
-        per_max=per_max;          
+         
         
         if(PORTCbits.RC0 == 0){
            per_max=per_max+2;     //aumentar la cantidad maxima
@@ -164,7 +165,7 @@ void main(void){
               apagarsalidas();
             
         }    
-            else if(PORTCbits.RC3 == 0){
+        else if(PORTCbits.RC3 == 0){
            cantidad=cantidad+1;     //sensor 1 lee que entro alguien
            __delay_ms(500);
            mostrarcantidad();
@@ -175,8 +176,7 @@ void main(void){
             __delay_ms(500);
             mostrarcantidad(); 
               apagarsalidas();
-        }     
-
+        }    
         mitad=0.5*per_max;
         if(cantidad < mitad){
             apagarsalidas();
@@ -204,7 +204,6 @@ void main(void){
             on_l_rojo();
             __delay_ms(500);   
         }
-        
-        }
     }
+}
    

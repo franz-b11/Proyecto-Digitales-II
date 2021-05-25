@@ -1326,147 +1326,144 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;MAIN.c: 131: }
 [e :UE 541 ]
 }
-"133
-[; ;MAIN.c: 133: void apagarsalidas (void){
+"134
+[; ;MAIN.c: 134: void apagarsalidas (void){
 [v _apagarsalidas `(v ~T0 @X0 1 ef ]
 {
 [e :U _apagarsalidas ]
 [f ]
-"134
-[; ;MAIN.c: 134:     LATBbits.LATB5 =0;;
-[e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
 "135
-[; ;MAIN.c: 135:     LATAbits.LATA2=0;;
-[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+[; ;MAIN.c: 135:     LATBbits.LATB5 =0;;
+[e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
 "136
-[; ;MAIN.c: 136:     LATAbits.LATA1=0;;
-[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+[; ;MAIN.c: 136:     LATAbits.LATA2=0;;
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
 "137
-[; ;MAIN.c: 137:     LATBbits.LATB7=0;;
+[; ;MAIN.c: 137:     LATAbits.LATA1=0;;
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+"138
+[; ;MAIN.c: 138:     LATBbits.LATB7=0;;
 [e = . . _LATBbits 0 4 -> -> 0 `i `uc ]
-"139
-[; ;MAIN.c: 139: }
+"140
+[; ;MAIN.c: 140: }
 [e :UE 542 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"140
-[; ;MAIN.c: 140: void main(void){
+"141
+[; ;MAIN.c: 141: void main(void){
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"141
-[; ;MAIN.c: 141:     PIN_MANAGER_Initialize();
-[e ( _PIN_MANAGER_Initialize ..  ]
 "142
-[; ;MAIN.c: 142:     OSCILLATOR_Initialize();
-[e ( _OSCILLATOR_Initialize ..  ]
+[; ;MAIN.c: 142:     PIN_MANAGER_Initialize();
+[e ( _PIN_MANAGER_Initialize ..  ]
 "143
-[; ;MAIN.c: 143:     Lcd_Init();
-[e ( _Lcd_Init ..  ]
+[; ;MAIN.c: 143:     OSCILLATOR_Initialize();
+[e ( _OSCILLATOR_Initialize ..  ]
 "144
-[; ;MAIN.c: 144:     Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+[; ;MAIN.c: 144:     Lcd_Init();
+[e ( _Lcd_Init ..  ]
 "145
-[; ;MAIN.c: 145:     Lcd_Cmd(12);
-[e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
-"146
-[; ;MAIN.c: 146:     apagarsalidas();
-[e ( _apagarsalidas ..  ]
-"147
-[; ;MAIN.c: 147:     ValorDeGenMax();
-[e ( _ValorDeGenMax ..  ]
-"148
-[; ;MAIN.c: 148:     Lcd_Cmd(1);
+[; ;MAIN.c: 145:     Lcd_Cmd(1);
 [e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"150
-[; ;MAIN.c: 150:     while(1){
+"146
+[; ;MAIN.c: 146:     Lcd_Cmd(12);
+[e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
+"147
+[; ;MAIN.c: 147:     apagarsalidas();
+[e ( _apagarsalidas ..  ]
+"148
+[; ;MAIN.c: 148:     ValorDeGenMax();
+[e ( _ValorDeGenMax ..  ]
+"149
+[; ;MAIN.c: 149:     Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"151
+[; ;MAIN.c: 151:     while(1){
 [e :U 545 ]
 {
-"151
-[; ;MAIN.c: 151:         per_max=per_max;
-[e = _per_max _per_max ]
-"153
-[; ;MAIN.c: 153:         if(PORTCbits.RC0 == 0){
+"154
+[; ;MAIN.c: 154:         if(PORTCbits.RC0 == 0){
 [e $ ! == -> . . _PORTCbits 0 0 `i -> 0 `i 547  ]
 {
-"154
-[; ;MAIN.c: 154:            per_max=per_max+2;
-[e = _per_max + _per_max -> -> 2 `i `ui ]
 "155
-[; ;MAIN.c: 155:            _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;MAIN.c: 155:            per_max=per_max+2;
+[e = _per_max + _per_max -> -> 2 `i `ui ]
 "156
-[; ;MAIN.c: 156:            mostrargenmax();
-[e ( _mostrargenmax ..  ]
+[; ;MAIN.c: 156:            _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "157
-[; ;MAIN.c: 157:              apagarsalidas();
+[; ;MAIN.c: 157:            mostrargenmax();
+[e ( _mostrargenmax ..  ]
+"158
+[; ;MAIN.c: 158:              apagarsalidas();
 [e ( _apagarsalidas ..  ]
-"159
-[; ;MAIN.c: 159:         }
+"160
+[; ;MAIN.c: 160:         }
 }
 [e $U 548  ]
-"160
-[; ;MAIN.c: 160:         else if(PORTCbits.RC1 == 0){
+"161
+[; ;MAIN.c: 161:         else if(PORTCbits.RC1 == 0){
 [e :U 547 ]
 [e $ ! == -> . . _PORTCbits 0 1 `i -> 0 `i 549  ]
 {
-"161
-[; ;MAIN.c: 161:             per_max=per_max-2;
-[e = _per_max - _per_max -> -> 2 `i `ui ]
 "162
-[; ;MAIN.c: 162:             _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;MAIN.c: 162:             per_max=per_max-2;
+[e = _per_max - _per_max -> -> 2 `i `ui ]
 "163
-[; ;MAIN.c: 163:             mostrargenmax();
-[e ( _mostrargenmax ..  ]
+[; ;MAIN.c: 163:             _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "164
-[; ;MAIN.c: 164:               apagarsalidas();
+[; ;MAIN.c: 164:             mostrargenmax();
+[e ( _mostrargenmax ..  ]
+"165
+[; ;MAIN.c: 165:               apagarsalidas();
 [e ( _apagarsalidas ..  ]
-"166
-[; ;MAIN.c: 166:         }
+"167
+[; ;MAIN.c: 167:         }
 }
 [e $U 550  ]
-"167
-[; ;MAIN.c: 167:             else if(PORTCbits.RC3 == 0){
+"168
+[; ;MAIN.c: 168:         else if(PORTCbits.RC3 == 0){
 [e :U 549 ]
 [e $ ! == -> . . _PORTCbits 0 3 `i -> 0 `i 551  ]
 {
-"168
-[; ;MAIN.c: 168:            cantidad=cantidad+1;
-[e = _cantidad + _cantidad -> -> 1 `i `ui ]
 "169
-[; ;MAIN.c: 169:            _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;MAIN.c: 169:            cantidad=cantidad+1;
+[e = _cantidad + _cantidad -> -> 1 `i `ui ]
 "170
-[; ;MAIN.c: 170:            mostrarcantidad();
-[e ( _mostrarcantidad ..  ]
+[; ;MAIN.c: 170:            _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "171
-[; ;MAIN.c: 171:              apagarsalidas();
-[e ( _apagarsalidas ..  ]
+[; ;MAIN.c: 171:            mostrarcantidad();
+[e ( _mostrarcantidad ..  ]
 "172
-[; ;MAIN.c: 172:         }
+[; ;MAIN.c: 172:              apagarsalidas();
+[e ( _apagarsalidas ..  ]
+"173
+[; ;MAIN.c: 173:         }
 }
 [e $U 552  ]
-"173
-[; ;MAIN.c: 173:         else if(PORTCbits.RC2 == 0){
+"174
+[; ;MAIN.c: 174:         else if(PORTCbits.RC2 == 0){
 [e :U 551 ]
 [e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 553  ]
 {
-"174
-[; ;MAIN.c: 174:             cantidad=cantidad-1;
-[e = _cantidad - _cantidad -> -> 1 `i `ui ]
 "175
-[; ;MAIN.c: 175:             _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;MAIN.c: 175:             cantidad=cantidad-1;
+[e = _cantidad - _cantidad -> -> 1 `i `ui ]
 "176
-[; ;MAIN.c: 176:             mostrarcantidad();
-[e ( _mostrarcantidad ..  ]
+[; ;MAIN.c: 176:             _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "177
-[; ;MAIN.c: 177:               apagarsalidas();
-[e ( _apagarsalidas ..  ]
+[; ;MAIN.c: 177:             mostrarcantidad();
+[e ( _mostrarcantidad ..  ]
 "178
-[; ;MAIN.c: 178:         }
+[; ;MAIN.c: 178:               apagarsalidas();
+[e ( _apagarsalidas ..  ]
+"179
+[; ;MAIN.c: 179:         }
 }
 [e :U 553 ]
 [e :U 552 ]
@@ -1556,14 +1553,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 559 ]
 [e :U 557 ]
 [e :U 555 ]
-"208
-[; ;MAIN.c: 208:         }
+"207
+[; ;MAIN.c: 207:     }
 }
 [e :U 544 ]
 [e $U 545  ]
 [e :U 546 ]
-"209
-[; ;MAIN.c: 209:     }
+"208
+[; ;MAIN.c: 208: }
 [e :UE 543 ]
 }
 [p f _sprintf 8388736 ]

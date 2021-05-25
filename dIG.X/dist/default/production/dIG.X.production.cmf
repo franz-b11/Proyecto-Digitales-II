@@ -51,7 +51,7 @@ bssBANK0 BANK0 1 6D 6D 2 1
 bssBANK1 BANK1 1 A0 A0 40 1
 clrtext CODE 0 B3E B3E 6 2
 config CONFIG 4 8007 8007 5 2
-$C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+$C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 5 2
@@ -161,20 +161,20 @@ STRING 833-B32 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\dIG.X.production.o
-7F2 cinit CODE >655:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F2 cinit CODE >658:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F2 cinit CODE >709:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F3 cinit CODE >710:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F4 cinit CODE >711:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F5 cinit CODE >715:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F6 cinit CODE >716:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F7 cinit CODE >717:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F8 cinit CODE >718:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7F9 cinit CODE >719:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7FA cinit CODE >720:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7FD cinit CODE >726:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7FD cinit CODE >728:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-7FE cinit CODE >729:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
+7F2 cinit CODE >655:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F2 cinit CODE >658:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F2 cinit CODE >709:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F3 cinit CODE >710:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F4 cinit CODE >711:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F5 cinit CODE >715:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F6 cinit CODE >716:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F7 cinit CODE >717:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F8 cinit CODE >718:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7F9 cinit CODE >719:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7FA cinit CODE >720:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7FD cinit CODE >726:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7FD cinit CODE >728:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+7FE cinit CODE >729:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
 E2F text26 CODE >151:D:\Users\mai-c\MPLABXProjects\dIG.X/flex_lcd.h
 E30 text26 CODE >152:D:\Users\mai-c\MPLABXProjects\dIG.X/flex_lcd.h
 E33 text26 CODE >153:D:\Users\mai-c\MPLABXProjects\dIG.X/flex_lcd.h
@@ -570,12 +570,12 @@ FED text4 CODE >41:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\x
 FF6 text4 CODE >42:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
 FF7 text4 CODE >43:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
 FFF text4 CODE >44:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
-B38 text3 CODE >133:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 B38 text3 CODE >134:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-B3A text3 CODE >135:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-B3B text3 CODE >136:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-B3C text3 CODE >137:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-B3D text3 CODE >139:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+B38 text3 CODE >135:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+B3A text3 CODE >136:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+B3B text3 CODE >137:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+B3C text3 CODE >138:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+B3D text3 CODE >140:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 C21 text2 CODE >126:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 C21 text2 CODE >127:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 C25 text2 CODE >128:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
@@ -588,30 +588,30 @@ BD9 text1 CODE >122:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 BE6 text1 CODE >123:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 BF0 text1 CODE >124:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 BF8 text1 CODE >125:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-23F maintext CODE >140:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 23F maintext CODE >141:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-242 maintext CODE >142:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-245 maintext CODE >143:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-248 maintext CODE >144:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-24C maintext CODE >145:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-250 maintext CODE >146:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-253 maintext CODE >147:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-256 maintext CODE >148:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-25A maintext CODE >153:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-25F maintext CODE >154:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-265 maintext CODE >155:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-26D maintext CODE >156:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-270 maintext CODE >157:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-273 maintext CODE >159:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-274 maintext CODE >160:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-278 maintext CODE >161:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-27F maintext CODE >167:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-283 maintext CODE >168:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-28A maintext CODE >169:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-292 maintext CODE >170:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-296 maintext CODE >173:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-29A maintext CODE >174:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-2A2 maintext CODE >178:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+23F maintext CODE >142:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+242 maintext CODE >143:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+245 maintext CODE >144:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+248 maintext CODE >145:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+24C maintext CODE >146:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+250 maintext CODE >147:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+253 maintext CODE >148:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+256 maintext CODE >149:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+25A maintext CODE >154:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+25F maintext CODE >155:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+265 maintext CODE >156:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+26D maintext CODE >157:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+270 maintext CODE >158:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+273 maintext CODE >160:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+274 maintext CODE >161:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+278 maintext CODE >162:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+27F maintext CODE >168:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+283 maintext CODE >169:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+28A maintext CODE >170:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+292 maintext CODE >171:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+296 maintext CODE >174:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+29A maintext CODE >175:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
+2A2 maintext CODE >179:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 2A2 maintext CODE >180:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 2D5 maintext CODE >181:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 2DF maintext CODE >182:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
@@ -629,14 +629,14 @@ BF8 text1 CODE >125:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 323 maintext CODE >203:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 326 maintext CODE >204:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
 329 maintext CODE >206:D:\Users\mai-c\MPLABXProjects\dIG.X\MAIN.c
-B3E clrtext CODE >698:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B3E clrtext CODE >699:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B3F clrtext CODE >700:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B3F clrtext CODE >701:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B40 clrtext CODE >702:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B41 clrtext CODE >703:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B42 clrtext CODE >704:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
-B43 clrtext CODE >705:C:\Users\mai-c\AppData\Local\Temp\sbtc.s
+B3E clrtext CODE >698:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B3E clrtext CODE >699:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B3F clrtext CODE >700:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B3F clrtext CODE >701:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B40 clrtext CODE >702:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B41 clrtext CODE >703:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B42 clrtext CODE >704:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
+B43 clrtext CODE >705:C:\Users\mai-c\AppData\Local\Temp\sbq8.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -667,7 +667,7 @@ __Hstrings 0 0 ABS 0 strings -
 _LATA 18 0 ABS 0 - dist/default/production\dIG.X.production.o
 _LATB 19 0 ABS 0 - dist/default/production\dIG.X.production.o
 _LATC 1A 0 ABS 0 - dist/default/production\dIG.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+___sp 0 0 STACK 2 stack C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 _dbuf AC 0 BANK1 1 bssBANK1 dist/default/production\dIG.X.production.o
 _dtoa 85A 0 CODE 0 text12 dist/default/production\dIG.X.production.o
 _main 47E 0 CODE 0 maintext dist/default/production\dIG.X.production.o
@@ -680,7 +680,7 @@ pad@p 25 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
 pad@w 29 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
 Lcd_Out2@x 73 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
 Lcd_Out2@y 77 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
-start 4 0 CODE 0 init C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+start 4 0 CODE 0 init C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 ___aomod@counter 71 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
 ___flmul@aexp 32 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
 ___flmul@bexp 33 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
@@ -697,12 +697,12 @@ pad@fp 2B 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
 __end_of_vfpfcnvrt 2AA 0 CODE 0 text11 dist/default/production\dIG.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\dIG.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbtc.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbtc.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbtc.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbtc.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbtc.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbq8.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbq8.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbq8.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbq8.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbq8.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 __size_of_ValorDeGenMax 0 0 ABS 0 - dist/default/production\dIG.X.production.o
 Lcd_Chr_CP@data 72 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\dIG.X.production.o
@@ -729,8 +729,8 @@ _INLVLA 1F3C 0 ABS 0 - dist/default/production\dIG.X.production.o
 _INLVLC 1F52 0 ABS 0 - dist/default/production\dIG.X.production.o
 ?_strlen 70 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
 __Umul8_16@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
-___stackhi 21EF 0 ABS 0 - C:\Users\mai-c\AppData\Local\Temp\sbtc.o
-___stacklo 2099 0 ABS 0 - C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+___stackhi 21EF 0 ABS 0 - C:\Users\mai-c\AppData\Local\Temp\sbq8.o
+___stacklo 2099 0 ABS 0 - C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 ___aomod@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
 __end_of_Lcd_Chr_CP 1EA8 0 CODE 0 text22 dist/default/production\dIG.X.production.o
 __size_of_fputc 0 0 ABS 0 - dist/default/production\dIG.X.production.o
@@ -753,7 +753,7 @@ _dtoa$630 3B 0 BANK0 1 cstackBANK0 dist/default/production\dIG.X.production.o
 __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\dIG.X.production.o
 fputc@fp 72 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
 fputs@fp 78 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+___int_sp 0 0 STACK 2 stack C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -1006,7 +1006,7 @@ ___xxtofl 1EA8 0 CODE 0 text4 dist/default/production\dIG.X.production.o
 __end_of_abs 171C 0 CODE 0 text18 dist/default/production\dIG.X.production.o
 __end_of_pad 1B46 0 CODE 0 text13 dist/default/production\dIG.X.production.o
 __Lintentry 4 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\mai-c\AppData\Local\Temp\sbtc.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\mai-c\AppData\Local\Temp\sbq8.o
 __end_of_mostrarcantidad 1892 0 CODE 0 text2 dist/default/production\dIG.X.production.o
 strlen@a 73 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
 strlen@s 74 0 COMMON 1 cstackCOMMON dist/default/production\dIG.X.production.o
