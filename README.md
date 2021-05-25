@@ -25,7 +25,7 @@ https://www.microchip.com/Developmenttools/ProductDetails/EV09Z1.
 1. Conectar el PIC al pc usando un cable micro-USB.
 2. Si aún no se ha intalado el sistema debe de desgargarlo para hacer buen uso de MPLAB (ultima versión)..
 3. Instalar XC8 para correr el .X
-![Diagrama en blanco](https://user-images.githubusercontent.com/79480593/119300351-36da7e00-bc26-11eb-9d25-2d70f70df227.png)
+![Diagrama en blanco (1)](https://user-images.githubusercontent.com/79480593/119440454-f6443880-bce9-11eb-89f8-6aff10bc2346.png)
 
 Materiales:
 
