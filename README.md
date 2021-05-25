@@ -28,12 +28,14 @@ https://www.microchip.com/Developmenttools/ProductDetails/EV09Z1.
 ![Diagrama en blanco (1)](https://user-images.githubusercontent.com/79480593/119440454-f6443880-bce9-11eb-89f8-6aff10bc2346.png)
 
 Materiales:
-
-.Cable micro-USB.
-.Pantalla LCD 16x3
-.Boton.
-.Potenciometro.
-.Resistencias 
+Cable micro-USB.
+Pantalla LCD 16x3.
+Botón.
+Potenciómetro.
+Resistencias .
+Led.
+Buzzer.
+Cable para conecciones.
 
 # Uso
 el dispositivo utiliza botones para registrar las personas que pasan por el establecimiento, cada persona que pase debe oprimir un boton ya sea cuando entre o sale, también el dueño de dicho establecimiento configura la capacidad máxima para el aforo
